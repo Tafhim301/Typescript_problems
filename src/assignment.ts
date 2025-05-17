@@ -57,3 +57,27 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
   
 
 }
+
+
+function processValue(value: string | number): number{
+
+ 
+
+  if(typeof value === "number"){
+
+    return value * 2;
+   
+   
+
+
+  }
+  
+  else{
+  
+    return value.length
+  }
+
+
+}
+
+
