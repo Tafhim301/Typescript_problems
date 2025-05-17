@@ -14,6 +14,6 @@ Though interface and type are quite similar, they have a few key differences.
  Interfaces are usually used for describing object structures, especially for things like class contracts.
  on the contrary Types are more flexible — for example, type is used to describe the structure of string | number | array | object | class etc.
 
- interface can be typeguarded by extend and type can't use extend
+ Interfaces can be extended using the `extends` keyword, which allows inheritance. But type don't support extending in the same way — they use intersections (`&`) instead.
 
 Overall,interface for object shapes and type for more advanced stuff like combining types or creating aliases is better.
